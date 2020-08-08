@@ -1,0 +1,23 @@
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Todo App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+        <li style="margin: 0 20px">{{#link-to 'todos'}}Home{{/link-to}}</li>
+        <li style="margin: 0 20px">{{#link-to 'todos.new'}}New Todo{{/link-to}}</li>
+    </ul>
+  </div>
+</nav>
+
+<div role="main" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            {{outlet}}
+        </div>
+    </div>
+
+</div><!-- /.container -->
