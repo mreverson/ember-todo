@@ -10,6 +10,7 @@ module.exports = function(defaults) {
   // Use `app.import` to add additional libraries to the generated
   // output files.
   app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('node_modules/moment/min/moment.min.js');
 
   return app.toTree();
 };

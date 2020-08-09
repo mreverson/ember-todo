@@ -22,7 +22,8 @@
     "@ember/optional-features": "^0.7.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-ajax": "^5.0.0",
-    "ember-cli": "~3.11.0",
+    "ember-auto-import": "^1.6.0",
+    "ember-cli": "3.2.0",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.7.3",
     "ember-cli-dependency-checker": "^3.1.0",
@@ -42,13 +43,17 @@
     "ember-resolver": "^5.0.1",
     "ember-source": "~3.11.1",
     "ember-welcome-page": "^4.0.0",
-    "emberfire": "^2.0.10",
+    "emberfire": "^3.0.0-rc.6",
     "eslint-plugin-ember": "^6.2.0",
     "eslint-plugin-node": "^9.0.1",
+    "firebase": "^7.17.2",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.4"
   },
   "engines": {
     "node": "8.* || >= 10.*"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
   }
 }
