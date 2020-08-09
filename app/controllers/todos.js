@@ -5,8 +5,10 @@ export default Controller.extend({
         deleteTodo: function(id){
             this.store.findRecord('todo', id).then(
                 function(todo){
+                    //delete todo item
                     todo.deleteRecord();
 
+                    //update db
                     todo.save();
                 });
         }

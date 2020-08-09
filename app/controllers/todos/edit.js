@@ -14,6 +14,7 @@ export default Controller.extend({
                     //Save to DB
                     todo.save();
 
+                    //navigate to homepage
                     self.transitionToRoute('todos')
             });
 
