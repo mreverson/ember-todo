@@ -54,6 +54,7 @@
     "node": "8.* || >= 10.*"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "moment": "^2.27.0"
   }
 }
