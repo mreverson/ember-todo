@@ -20,6 +20,14 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
+ENV Variables needed for Firebase/Emberfire
+    APIKEY
+    AUTHDOMAIN
+    DATABASEURL
+    PROJECT_ID
+    STORAGEBUCKET
+
+
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
